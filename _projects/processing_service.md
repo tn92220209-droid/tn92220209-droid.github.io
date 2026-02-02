@@ -20,7 +20,7 @@ giscus_comments: false
       Processing Services también maneja alarmas, eventos y LINs, permitiendo una inteligencia en el borde confiable, trazable y autónoma para despliegues IoT remotos.
     </div>
     <div class="col-sm mt-3 mt-md-0">
-      {% include figure.liquid loading="eager" path="assets/projects/twizard/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid loading="eager" path="assets/projects/twizard/1.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

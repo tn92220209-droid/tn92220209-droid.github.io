@@ -2,7 +2,8 @@
 layout: page
 title: Proyectos
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Colección de proyectos personales y profesionales de todas las épocas.
+avatar: assets/img/coming_soon.jpeg
 nav: true
 nav_order: 3
 display_categories: [featured, work, opensource, fun, old]

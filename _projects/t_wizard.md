@@ -19,7 +19,7 @@ images:
         T.WIZARD es una herramienta basada en web para configurar terminales ORBCOMM a través de formularios guiados. Soporta tanto servicios principales (nativos de ORBCOMM) como servicios desarrollados por el usuario incluidos en el paquete del dispositivo. Los usuarios pueden versionar y documentar cambios, y luego desplegarlos a uno o múltiples terminales. Cada configuración es totalmente auditable, permitiendo visibilidad y control sobre los dispositivos de campo con rapidez, consistencia y sin necesidad de conocimientos técnicos avanzados.
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/twizard/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/projects/twizard/1.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

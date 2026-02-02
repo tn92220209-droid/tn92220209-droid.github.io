@@ -1,8 +1,8 @@
 ---
 layout: page
-title: TT.Data - Microservicios de ingesta (Dataops)
+title: T.Data | Microservicios
 description: >
-    Microservicios de ingesta de T.Data: Plataforma de IoT de Twindimension
+    Microservicios de ingesta para IoT
     Twindimension<br>
     Q1/2023 - Actualidad
 img: assets/img/coming_soon.jpeg
@@ -20,7 +20,7 @@ images:
         Los microservicios de ingesta (Dataops) son parte importante de la plataforma, encargados de recibir, procesar (agregaciones, conversiones, enriquecimiento, etc.) y disponibilizar (unificar en un único protocolo: MQTT) la telemetría de los dispositivos IoT (diferentes protocolos de campo / obtensión de telemetría a traves de API's de terceros).
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/coming_soon.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/coming_soon.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

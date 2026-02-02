@@ -5,7 +5,7 @@ description: >
     Baliza BLE multipropósito<br>
     Twindimension<br>
     Q4/2025 - Actualidad
-img: assets/img/coming_soon.jpeg
+img: assets/projects/beacon_ble/1.png
 importance: 1
 category: featured
 giscus_comments: false
@@ -18,7 +18,7 @@ giscus_comments: false
         Alimentación externa o a batería interna, bajo consumo energético y un gabinete IP67.
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/coming_soon.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/projects/beacon_ble/1.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -26,8 +26,7 @@ giscus_comments: false
 - BLE 5.2
 - Acelerómetro (32kHz) | Detección de movimiento, medición y análisis de vibraciones.
 - Batería de litio + control de carga.
-- Entradas analógicas (transductores externos)
-- Triangulación de posición
+- Entradas analógicas 4-20mA / 0-20mA / 0-5V / 0-10V (transductores externos)
 - Bajo consumo (control de alimentación de periféricos)
 - Gabinete IP67
 
@@ -36,7 +35,7 @@ giscus_comments: false
 - Medición de marcha (RPM) por vibraciónes.
 - Detección de anomalías por vibraciónes (mantenimiento predictivo).
 - Medición de variables externas (ej: temperatura, humedad, presión, etc.) vía transductores externos.
-- 
+- Posicionamiento (triangulación)
 
 ## Empresa
 - [https://www.twindimension.com/](https://www.twindimension.com/)
@@ -56,4 +55,7 @@ giscus_comments: false
 - Desarrollo en curso
 
 ### Referencias
-- 
+> ToDo
+
+### Imágenes
+> ToDo
