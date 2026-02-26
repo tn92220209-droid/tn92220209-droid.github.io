@@ -1,0 +1,72 @@
+"estimacion-carga-bateria":
+  title: "MonSoC"
+  url: /projects/beacon_ble/
+  tags: ["integration", "beacon-ble", "iot"]
+  description: "Monitoreo / estimación de carga de batería en autoelevadores"
+  company: "Twindimension"
+  clients: [""]
+  tasks: ["i+d", "hardware", "firmware", "despliegue", "soporte", "monitoreo"]
+  date: "Q4/2025 - Actualidad"
+
+"protocol_analyzer":
+  title: "Protocol Analyzer"
+  #url: https://aapt.scitation.org/journal/ajp
+  tags: ["software", "tool", "frontend"]
+  description: "Analizador de protocolos para reconectadores DNP3 / IEC61850"
+  company: "Twindimension"
+  tasks: ["i+d"]
+  date: "Q1/2024"
+
+"epconfig":
+  title: "EPConfig"
+  #url: https://journals.aps.org/
+  tags: ["software", "tool", "embedded", "frontend", "iot"]
+  description: "Aplicación de configuración para producto EP"
+  company: "Twindimension"
+  tasks: ["i+d"]
+  date: "Q1/2023"
+
+"reconectadores":
+  title: "Reconectadores"
+  url: https://www.tesacom.net/energia
+  tags: ["integration", "dnp3", "iot", "iec61850", "scada"]
+  description: "Integración de reconectadores con plataforma T.Data / SCADA"
+  company: "Twindimension"
+  clients: ["EDESA", "EDEN", "EPEC", "SQM", "ANDE"]
+  tasks: ["i+d", "despliegue", "soporte", "monitoreo"]
+  date: "Q1/2021 - Actualidad"
+
+"productividad-petroleo":
+  title: "Productividad pozos Petroleros"
+  tags: ["integration", "modbus", "satellite", "orbcomm"]
+  description: "Integración de ? con plataforma IoT"
+  company: "Tesacom"
+  clients: ["MMA"]
+  tasks: ["i+d", "despliegue", "soporte", "monitoreo"]
+  date: "Q1/2022 - Actualidad"
+
+"smart-water":
+  title: "Smartwater"
+  tags: ["integration", "modbus", "satellite", "orbcomm", "iot"]
+  description: "Telemtría de medidores de agua / nivel de pozos / presiones"
+  company: "Tesacom"
+  clients: ["Aguas del Río Colorado"]
+  tasks: ["i+d", "despliegue", "soporte", "monitoreo"]
+  date: "Q1/2021 - Actualidad"
+
+"estaciones-meteorologicas":
+  title: "Estaciones Meteorológicas"
+  tags: ["integration", "modbus", "sdi-12", "satellite", "orbcomm", "iot"]
+  description: "Integración de estaciones meteorológicas con plataforma IoT"
+  company: "Tesacom"
+  tasks: ["i+d", "despliegue", "soporte", "monitoreo"]
+  date: "Q4/2020 - Actualidad"
+
+"barco-conectado":
+  title: "Barco Conectado"
+  tags: ["producto", "circuitpython", "j1939", "mqtt", "iot"]
+  description: "Integración de datos de motores de embarcaciones con plataforma IoT"
+  company: "Tesacom"
+  clients: [""]
+  tasks: ["i+d", "firmware"]
+  date: "Q1/2022"

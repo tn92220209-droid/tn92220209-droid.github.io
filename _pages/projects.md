@@ -6,7 +6,7 @@ description: Colección de proyectos personales y profesionales de todas las ép
 avatar: assets/img/coming_soon.jpeg
 nav: true
 nav_order: 3
-display_categories: [featured, work, opensource, fun, old]
+display_categories: [featured, small_things, old, opensource, fun]
 horizontal: false
 ---
 
@@ -34,6 +34,16 @@ horizontal: false
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
+  {% if category == 'small_things' %}
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+    {% for project_hash in site.data["small-projects"] %}
+      {% assign project = project_hash[1] %}
+      <div class="col">
+        {% include projects_list_item.liquid %}
+      </div>
+    {% endfor %}
+  </div>
+  {% else %}
   {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
@@ -48,6 +58,7 @@ horizontal: false
       {% include projects.liquid %}
     {% endfor %}
   </div>
+  {% endif %}
   {% endif %}
   {% endfor %}
 
@@ -64,14 +75,22 @@ horizontal: false
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
     {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
+      {% if project.category == 'small_things' %}
+        {% include projects_horizontal_simple.liquid %}
+      {% else %}
+        {% include projects_horizontal.liquid %}
+      {% endif %}
     {% endfor %}
     </div>
   </div>
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
     {% for project in sorted_projects %}
-      {% include projects.liquid %}
+      {% if project.category == 'small_things' %}
+        {% include projects_simple.liquid %}
+      {% else %}
+        {% include projects.liquid %}
+      {% endif %}
     {% endfor %}
   </div>
   {% endif %}
